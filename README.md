@@ -1,7 +1,7 @@
 # Solana Supply Chain Mexbalia (SSCM)
 
 <p align="center">
-  <img src="Resources/Images/ConnectIoTLogo.png" alt="SSCM">
+  <img src="Resources/Images/ConnectIoTLogo2.png" alt="SSCM">
 </p>
 
 <p align="center">
