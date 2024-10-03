@@ -1,4 +1,3 @@
-# SolanaSCM
 # Solana Supply Chain Mexbalia (SSCM)
 
 <p align="center">
