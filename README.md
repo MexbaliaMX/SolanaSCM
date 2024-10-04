@@ -58,7 +58,7 @@ This process can be understood more clearly with the architecture diagram.
 ## Credits
 ## Contributions
 
-| [<img src="https://avatars.githubusercontent.com/u/183743082?s=400&u=f8069e20b130c3d47391bfcb8e9f6aea96a18706&v=4" width=150><br><sub>Eban CM</sub>](https://github.com/EbanCM) | [<img src="https://avatars.githubusercontent.com/u/121314138?v=4" width=150><br><sub>Mexbalia</sub>](https://github.com/MexbaliaMX) | [<img src="https://avatars.githubusercontent.com/u/121314138?v=4" width=150><br><sub>Eduardo Campos</sub>](https://github.com/MexbaliaMX) |
+| [<img src="https://avatars.githubusercontent.com/u/183743082?s=400&u=f8069e20b130c3d47391bfcb8e9f6aea96a18706&v=4" width=150><br><sub>Eban CM</sub>](https://github.com/EbanCM) | [<img src="https://avatars.githubusercontent.com/u/121314138?v=4" width=150><br><sub>Mexbalia</sub>](https://github.com/MexbaliaMX) | [<img src="https://avatars.githubusercontent.com/u/12131418?v=4" width=150><br><sub>Eduardo Campos</sub>](https://github.com/MexbaliaMX) |
 | :---: | :---: | :---: |
 
 ## Licenses 
