@@ -4,9 +4,9 @@ The development of ConnectIoT on Solana represents a significant leap forward in
   <img src="Resources/Images/ConnectIoTLogo2.png" alt="SSCM">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="Resources/Images/SolanaLogo.jpg" alt="Solana">
-</p>
+</p> -->
 
 
 ## Technologies
