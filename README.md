@@ -10,14 +10,14 @@ The development of ConnectIoT on Solana represents a significant leap forward in
 
 
 ## Technologies
-![Static Badge](https://img.shields.io/badge/Solana-%239945FF?style=flat-square&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fsolana.com%2F)
-![Static Badge](https://img.shields.io/badge/Rust-%2300B67A?style=flat-square&logo=Rust&logoColor=%2300B67A&labelColor=%23000000&link=https%3A%2F%2Fwww.rust-lang.org%2Fes)
-![Static Badge](https://img.shields.io/badge/Arduino-%2300878F?style=flat-square&logo=Arduino&logoColor=%2300878F&labelColor=%23333333&link=https%3A%2F%2Fwww.arduino.cc%2F)
-![Static Badge](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=%23A22846&labelColor=%23FFFFFF&link=https%3A%2F%2Fwww.raspberrypi.com%2F)
-![Static Badge](https://img.shields.io/badge/React-%2361DAFB?style=flat-square&logo=React&logoColor=%2361DAFB&labelColor=%23000000&link=https%3A%2F%2Fhttps://es.react.dev/%2F)
-![Static Badge](https://img.shields.io/badge/Axios-%235A29E4?style=flat-square&logo=Axios&logoColor=%235A29E4&labelColor=%23FFFFFF&link=https%3A%2F%2Faxios-http.com%2Fes%2Fdocs%2Fintro)
-![Static Badge](https://img.shields.io/badge/Copa_America_Solana-%239945FF?style=flat-square&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fwww.copasolana.com%2Fes)
-![Static Badge](https://img.shields.io/badge/Node.js-%235FA04E?style=flat-square&logo=nodedotjs&logoColor=%235FA04E&labelColor=%23000000&link=https%3A%2F%2Fnodejs.org%2Fen)
+![Static Badge](https://img.shields.io/badge/Solana-%239945FF?style=for-the-badge&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fsolana.com%2F)
+![Static Badge](https://img.shields.io/badge/Rust-%2300B67A?style=for-the-badge&logo=Rust&logoColor=%2300B67A&labelColor=%23000000&link=https%3A%2F%2Fwww.rust-lang.org%2Fes)
+![Static Badge](https://img.shields.io/badge/Arduino-%2300878F?style=for-the-badge&logo=Arduino&logoColor=%2300878F&labelColor=%23333333&link=https%3A%2F%2Fwww.arduino.cc%2F)
+![Static Badge](https://img.shields.io/badge/Raspberry%20Pi-%23A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=%23A22846&labelColor=%23FFFFFF&link=https%3A%2F%2Fwww.raspberrypi.com%2F)
+![Static Badge](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=React&logoColor=%2361DAFB&labelColor=%23000000&link=https%3A%2F%2Fhttps://es.react.dev/%2F)
+![Static Badge](https://img.shields.io/badge/Axios-%235A29E4?style=for-the-badge&logo=Axios&logoColor=%235A29E4&labelColor=%23FFFFFF&link=https%3A%2F%2Faxios-http.com%2Fes%2Fdocs%2Fintro)
+![Static Badge](https://img.shields.io/badge/Copa_America_Solana-%239945FF?style=for-the-badge&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fwww.copasolana.com%2Fes)
+![Static Badge](https://img.shields.io/badge/Node.js-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=%235FA04E&labelColor=%23000000&link=https%3A%2F%2Fnodejs.org%2Fen)
 [![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&labelColor=black)](https://www.typescriptlang.org/)
 
 ## Content
