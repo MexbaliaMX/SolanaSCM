@@ -1,5 +1,5 @@
 # Solana Supply Chain Mexbalia (SSCM)
-
+The development of ConnectIoT on Solana represents a significant leap forward in the integration of IoT and blockchain technologies, taking advantage of Solana’s scalability, speed, and low-cost transactions. This aligns with trends in supply chain innovation, such as AWS's use of IoT-enabled blockchain for traceability and transparency. Supply chains face increasing demand for real-time visibility, especially in high-stakes industries like pharmaceuticals, agriculture, and manufacturing. By leveraging blockchain’s immutability and IoT’s data collection capabilities, companies can track the provenance, status, and location of goods with unprecedented precision.
 <p align="center">
   <img src="Resources/Images/ConnectIoTLogo2.png" alt="SSCM">
 </p>
@@ -8,8 +8,6 @@
   <img src="Resources/Images/SolanaLogo.jpg" alt="Solana">
 </p>
 
-
-The development of ConnectIoT on Solana represents a significant leap forward in the integration of IoT and blockchain technologies, taking advantage of Solana’s scalability, speed, and low-cost transactions. This aligns with trends in supply chain innovation, such as AWS's use of IoT-enabled blockchain for traceability and transparency. Supply chains face increasing demand for real-time visibility, especially in high-stakes industries like pharmaceuticals, agriculture, and manufacturing. By leveraging blockchain’s immutability and IoT’s data collection capabilities, companies can track the provenance, status, and location of goods with unprecedented precision.
 
 ## Technologies
 ![Static Badge](https://img.shields.io/badge/Solana-%239945FF?style=flat-square&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fsolana.com%2F)
