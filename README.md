@@ -1,5 +1,5 @@
 # Solana Supply Chain Mexbalia (SSCM)
-The development of ConnectIoT on Solana represents a significant leap forward in the integration of IoT and blockchain technologies, taking advantage of Solana’s scalability, speed, and low-cost transactions. This aligns with trends in supply chain innovation, such as AWS's use of IoT-enabled blockchain for traceability and transparency. Supply chains face increasing demand for real-time visibility, especially in high-stakes industries like pharmaceuticals, agriculture, and manufacturing. By leveraging blockchain’s immutability and IoT’s data collection capabilities, companies can track the provenance, status, and location of goods with unprecedented precision.
+
 <p align="center">
   <img src="Resources/Images/ConnectIoTLogo2.png" alt="SSCM">
 </p>
@@ -8,6 +8,18 @@ The development of ConnectIoT on Solana represents a significant leap forward in
   <img src="Resources/Images/SolanaLogo.jpg" alt="Solana">
 </p> -->
 
+## About this project
+The development of ConnectIoT on Solana represents a significant leap 
+forward in the integration o IoT and blockchain technologies, 
+taking advantage of Solana’s scalability, speed, and low-cost transactions. 
+This aligns with trends in supply chain innovation, such as AWS's use of 
+IoT-enabled blockchain for traceability and transparency. 
+Supply chains face increasing demand for real-time visibility, 
+especially in high-stakes industries like pharmaceuticals, agriculture, 
+and manufacturing. 
+By leveraging blockchain’s immutability and IoT’s data collection 
+capabilities, companies can track the provenance, status, and location of 
+goods with unprecedented precision.
 
 ## Technologies
 ![Static Badge](https://img.shields.io/badge/Solana-%239945FF?style=for-the-badge&logo=Solana&logoColor=%239945FF&labelColor=%23000000&link=https%3A%2F%2Fsolana.com%2F)
@@ -22,12 +34,16 @@ The development of ConnectIoT on Solana represents a significant leap forward in
 
 ## Content
 
-- [What is ConnectIoT Solana SCM?](#what-is-connectiot-solana-scm)
-- [How does SSCM work?](#how-does-sscm-work)
-- [Architecture](#architecture)
-- [Credits](#credits)
-- [Licenses](#licenses)
-- [Contributions](#contributions)
+- [Solana Supply Chain Mexbalia (SSCM)](#solana-supply-chain-mexbalia-sscm)
+  - [About this project](#about-this-project)
+  - [Technologies](#technologies)
+  - [Content](#content)
+  - [What is ConnectIoT Solana SCM?](#what-is-connectiot-solana-scm)
+  - [How does SSCM work?](#how-does-sscm-work)
+  - [Architecture](#architecture)
+  - [Credits](#credits)
+  - [Contributions](#contributions)
+  - [Licenses](#licenses)
 
 ## What is ConnectIoT Solana SCM?
 
@@ -59,7 +75,7 @@ This process can be understood more clearly with the architecture diagram.
 ## Contributions
 
 | [<img src="https://avatars.githubusercontent.com/u/183743082?s=400&u=f8069e20b130c3d47391bfcb8e9f6aea96a18706&v=4" width=150><br><sub>Eban CM</sub>](https://github.com/EbanCM) | [<img src="https://avatars.githubusercontent.com/u/121314138?v=4" width=150><br><sub>Mexbalia</sub>](https://github.com/MexbaliaMX) | [<img src="https://avatars.githubusercontent.com/u/12131418?v=4" width=150><br><sub>Eduardo Campos</sub>](https://github.com/MexbaliaMX) |
-| :---: | :---: | :---: |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
 
 ## Licenses 
 
