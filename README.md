@@ -22,7 +22,7 @@ The development of ConnectIoT on Solana represents a significant leap forward in
 ![Static Badge](https://img.shields.io/badge/Node.js-%235FA04E?style=flat-square&logo=nodedotjs&logoColor=%235FA04E&labelColor=%23000000&link=https%3A%2F%2Fnodejs.org%2Fen)
 [![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&labelColor=black)](https://www.typescriptlang.org/)
 
-## Tabla de contenido
+## Content
 
 - [What is ConnectIoT Solana SCM?](#what-is-connectiot-solana-scm)
 - [How does SSCM work?](#how-does-sscm-work)
