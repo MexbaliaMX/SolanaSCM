@@ -1,0 +1,12 @@
+/home/eduardo/Desktop/Solana/solanascm/target/debug/deps/libark_std-9cca19b4143a8ceb.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs
+
+/home/eduardo/Desktop/Solana/solanascm/target/debug/deps/ark_std-9cca19b4143a8ceb.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/mod.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/io/error.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/error.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/rand_helper.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/perf_trace.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/mod.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ark-std-0.4.0/src/iterable/rev.rs:
