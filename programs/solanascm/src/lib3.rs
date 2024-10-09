@@ -9,7 +9,7 @@ use solana_program::{
 };
 use std::collections::HashMap;
 
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize, Clone)]
 pub struct Device {
     pub metadata: HashMap<String, String>,
     pub data: HashMap<String, String>,
@@ -60,7 +60,7 @@ impl Device {
     }
 }
 
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize, Clone)]
 pub struct Registry {
     pub name: String,
     pub devices: HashMap<String, Device>,
@@ -89,7 +89,7 @@ impl Registry {
     }
 }
 
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize, Clone)]
 pub struct Contract {
     pub registries: HashMap<String, Registry>,
 }
@@ -175,46 +175,61 @@ impl Contract {
         registry_name: String,
         device_name: String,
         data: String,
-        signer_account: &Pubkey, // Agregado
+        signer_account: &Pubkey,
     ) -> bool {
+        // Valida el registro primero
         if !self.validate_registry(registry_name.clone(), signer_account) {
             return false;
         }
-    
-        let mut current_registry = self.registries.get(&registry_name).unwrap();
-        if !self.validate_exists_device(&current_registry, device_name.clone()) {
+
+        // Obtiene el registro como mutable
+        let current_registry = self.registries.get_mut(&registry_name).unwrap();
+
+        // Valida si el dispositivo existe
+        if !self.validate_exists_device(current_registry, device_name.clone()) {
             return false;
         }
-        let mut current_device = current_registry.devices.get_mut(&device_name).unwrap(); // Cambiado a get_mut
+
+        // Obtiene el dispositivo como mutable
+        let current_device = current_registry.devices.get_mut(&device_name).unwrap();
+
+        // Convierte el string de datos a un HashMap
         let aux_map: HashMap<String, String> = serde_json::from_str(&data).unwrap();
+        
+        // Establece los datos del dispositivo
         current_device.set_data(aux_map);
-        current_registry.add_device(current_device.clone()); // Clonamos aquí
+        
         true
     }
     
-
+    
     pub fn set_device_metadata(
         &mut self,
         registry_name: String,
         device_name: String,
         metadata: String,
-        signer_account: &Pubkey, // Agregado
+        signer_account: &Pubkey,
     ) -> bool {
+        // Valida el registro primero
         if !self.validate_registry(registry_name.clone(), signer_account) {
             return false;
         }
     
-        let mut current_registry = self.registries.get(&registry_name).unwrap();
-        if !self.validate_exists_device(&current_registry, device_name.clone()) {
+        // Obtiene el registro como mutable
+        let current_registry = self.registries.get_mut(&registry_name).unwrap();
+    
+        // Valida si el dispositivo existe
+        if !self.validate_exists_device(current_registry, device_name.clone()) {
             return false;
         }
-        let mut current_device = current_registry.devices.get_mut(&device_name).unwrap(); // Cambiado a get_mut
+    
+        // Obtiene el dispositivo como mutable
+        let current_device = current_registry.devices.get_mut(&device_name).unwrap();
         let aux_map: HashMap<String, String> = serde_json::from_str(&metadata).unwrap();
         current_device.set_metadata(aux_map);
-        current_registry.add_device(current_device.clone()); // Clonamos aquí
+        
         true
     }
-    
 
     pub fn set_device_data_param(
         &mut self,
@@ -222,46 +237,48 @@ impl Contract {
         device_name: String,
         param: String,
         value: String,
-        signer_account: &Pubkey, // Agregado
+        signer_account: &Pubkey,
     ) -> bool {
         if !self.validate_registry(registry_name.clone(), signer_account) {
             return false;
         }
     
-        let mut current_registry = self.registries.get(&registry_name).unwrap();
+        // Obtener una referencia mutable
+        let current_registry = self.registries.get_mut(&registry_name).unwrap();
         if !self.validate_exists_device(&current_registry, device_name.clone()) {
             return false;
         }
-        let mut current_device = current_registry.devices.get_mut(&device_name).unwrap(); // Cambiado a get_mut
+        
+        let current_device = current_registry.devices.get_mut(&device_name).unwrap();
         current_device.set_data_param(param, value);
-        current_registry.add_device(current_device.clone()); // Clonamos aquí
+        
         true
     }
     
-
     pub fn set_device_metadata_param(
         &mut self,
         registry_name: String,
         device_name: String,
         param: String,
         value: String,
-        signer_account: &Pubkey, // Agregado
+        signer_account: &Pubkey,
     ) -> bool {
         if !self.validate_registry(registry_name.clone(), signer_account) {
             return false;
         }
     
-        let mut current_registry = self.registries.get(&registry_name).unwrap();
+        // Obtener una referencia mutable
+        let current_registry = self.registries.get_mut(&registry_name).unwrap();
         if !self.validate_exists_device(&current_registry, device_name.clone()) {
             return false;
         }
-        let mut current_device = current_registry.devices.get_mut(&device_name).unwrap(); // Cambiado a get_mut
+        
+        let current_device = current_registry.devices.get_mut(&device_name).unwrap();
         current_device.set_metadata_param(param, value);
-        current_registry.add_device(current_device.clone()); // Clonamos aquí
+        
         true
     }
     
-
     fn validate_owner(&self, registry_name: String, signer_account: &Pubkey) -> bool {
         if let Some(registry) = self.registries.get(&registry_name) {
             &registry.owner_id == signer_account
