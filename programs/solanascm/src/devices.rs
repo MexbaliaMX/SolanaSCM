@@ -44,7 +44,7 @@ impl Device {
     }
 }
 
-entrypoint!(process_instruction);
+//entrypoint!(process_instruction);
 
 pub fn process_instruction(
     program_id: &Pubkey,
