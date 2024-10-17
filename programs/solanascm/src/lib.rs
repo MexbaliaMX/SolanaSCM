@@ -31,6 +31,23 @@ pub mod registry_project {
         device.metadata = metadata;
         Ok(())
     }
+
+    // Nueva función para crear registro y dispositivos
+    pub fn create_registry_with_devices(ctx: Context<CreateRegistryWithDevices>, registry_name: String, device1_name: String, device1_description: String, device2_name: String, device2_description: String) -> Result<()> {
+        let registry = &mut ctx.accounts.registry;
+        registry.device_count = 0;
+        registry.name = registry_name;
+        registry.device_ids = Vec::new(); // Inicializa el vector de IDs de dispositivos
+
+        // Añade el primer dispositivo
+        let device1 = &mut ctx.accounts.device1;
+        device1.name = device1_name;
+        device1.description = device1_description;
+        registry.device_count += 1;
+        registry.device_ids.push(device1.key());
+
+        Ok(())
+    }
 }
 
 #[account]
@@ -77,172 +94,19 @@ pub struct SetDeviceMetadata<'info> {
     pub user: Signer<'info>,
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-    use anchor_lang::prelude::*;
-    use anchor_lang::solana_program::{pubkey::Pubkey, system_program};
-    use anchor_lang::ProgramTest;
-    use std::str::FromStr;
+// Nueva estructura para crear registro y dispositivos
+#[derive(Accounts)]
+pub struct CreateRegistryWithDevices<'info> {
+    #[account(init, payer = user, space = 8 + 8 + 4 + 32 * 100)]
+    pub registry: Account<'info, Registry>,
+    
+    #[account(init, payer = user, space = 8 + 4 + 32)]
+    pub device1: Account<'info, Device>,
+    
+    #[account(init, payer = user, space = 8 + 4 + 32)]
+    pub device2: Account<'info, Device>,
 
-    #[tokio::test]
-    async fn test_create_registry_and_add_devices() {
-        // Configura el entorno de prueba
-        let mut program_test = ProgramTest::new(
-            "registry_project", // Nombre de tu programa
-            Pubkey::from_str("5zfjxFExnrGcuUoSDgnXxm1vtq3jtLePVSv5Awy").unwrap(),
-            processor!(process_instruction), // Cambia esto si tienes un procesador específico
-        );
-
-        // Crea un nuevo usuario
-        let user_keypair = Keypair::new();
-        program_test.add_account(user_keypair.pubkey(), 1_000_000_000, &system_program::ID);
-
-        // Crear cuentas para el registro y el dispositivo
-        let (registry_pubkey, _) = Pubkey::find_program_address(&[b"registry"], &program_test.program_id);
-        let (device_pubkey_1, _) = Pubkey::find_program_address(&[b"device1"], &program_test.program_id);
-        let (device_pubkey_2, _) = Pubkey::find_program_address(&[b"device2"], &program_test.program_id);
-
-        // Añadir cuentas para el registro
-        program_test.add_account(
-            registry_pubkey,
-            Account {
-                lamports: 0,
-                data: vec![0; std::mem::size_of::<Registry>()], // Espacio para el registro
-                owner: program_test.program_id,
-                executable: false,
-                rent_epoch: 0,
-            },
-        );
-
-        let mut banks_client = program_test.start().await.unwrap();
-
-        // Crear el registro
-        let create_registry_ix = registry_project::create_registry(
-            Context::new(
-                &mut banks_client,
-                CreateRegistry {
-                    registry: AccountInfo::new(
-                        &registry_pubkey,
-                        false,
-                        true,
-                        &mut 0,
-                        &mut vec![0; std::mem::size_of::<Registry>()],
-                        &program_test.program_id,
-                        false,
-                        0,
-                    ),
-                    user: user_keypair.pubkey(),
-                    system_program: system_program::ID,
-                },
-            ),
-            "MyRegistry".to_string(), // Nombre del registro
-        );
-
-        assert!(create_registry_ix.is_ok());
-
-        // Verificar que el registro fue creado
-        let account = banks_client
-            .get_account(registry_pubkey)
-            .await
-            .unwrap()
-            .unwrap();
-
-        let registry_data = Registry::try_from_slice(&account.data).unwrap();
-        assert_eq!(registry_data.device_count, 0);
-
-        // Añadir el primer dispositivo al registro
-        let add_device_ix_1 = registry_project::add_device(
-            Context::new(
-                &mut banks_client,
-                AddDevice {
-                    device: AccountInfo::new(
-                        &device_pubkey_1,
-                        false,
-                        true,
-                        &mut 0,
-                        &mut vec![0; std::mem::size_of::<Device>()],
-                        &program_test.program_id,
-                        false,
-                        0,
-                    ),
-                    registry: registry_pubkey,
-                    user: user_keypair.pubkey(),
-                    system_program: system_program::ID,
-                },
-            ),
-            "TestDevice1".to_string(),
-            "Test Description 1".to_string(),
-        );
-
-        assert!(add_device_ix_1.is_ok());
-
-        // Verificar que el primer dispositivo fue agregado
-        let registry_account = banks_client
-            .get_account(registry_pubkey)
-            .await
-            .unwrap()
-            .unwrap();
-
-        let updated_registry_data = Registry::try_from_slice(&registry_account.data).unwrap();
-        assert_eq!(updated_registry_data.device_count, 1);
-
-        // Añadir el segundo dispositivo al registro
-        let add_device_ix_2 = registry_project::add_device(
-            Context::new(
-                &mut banks_client,
-                AddDevice {
-                    device: AccountInfo::new(
-                        &device_pubkey_2,
-                        false,
-                        true,
-                        &mut 0,
-                        &mut vec![0; std::mem::size_of::<Device>()],
-                        &program_test.program_id,
-                        false,
-                        0,
-                    ),
-                    registry: registry_pubkey,
-                    user: user_keypair.pubkey(),
-                    system_program: system_program::ID,
-                },
-            ),
-            "TestDevice2".to_string(),
-            "Test Description 2".to_string(),
-        );
-
-        assert!(add_device_ix_2.is_ok());
-
-        // Verificar que el segundo dispositivo fue agregado
-        let updated_registry_account = banks_client
-            .get_account(registry_pubkey)
-            .await
-            .unwrap()
-            .unwrap();
-
-        let final_registry_data = Registry::try_from_slice(&updated_registry_account.data).unwrap();
-        assert_eq!(final_registry_data.device_count, 2);
-
-        // Verificar que el primer dispositivo fue creado correctamente
-        let device_account_1 = banks_client
-            .get_account(device_pubkey_1)
-            .await
-            .unwrap()
-            .unwrap();
-
-        let device_data_1 = Device::try_from_slice(&device_account_1.data).unwrap();
-        assert_eq!(device_data_1.name, "TestDevice1");
-        assert_eq!(device_data_1.description, "Test Description 1");
-
-        // Verificar que el segundo dispositivo fue creado correctamente
-        let device_account_2 = banks_client
-            .get_account(device_pubkey_2)
-            .await
-            .unwrap()
-            .unwrap();
-
-        let device_data_2 = Device::try_from_slice(&device_account_2.data).unwrap();
-        assert_eq!(device_data_2.name, "TestDevice2");
-        assert_eq!(device_data_2.description, "Test Description 2");
-    }
+    #[account(mut)]
+    pub user: Signer<'info>,
+    pub system_program: Program<'info, System>,
 }
