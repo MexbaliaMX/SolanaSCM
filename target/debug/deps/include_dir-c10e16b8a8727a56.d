@@ -1,0 +1,11 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libinclude_dir-c10e16b8a8727a56.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libinclude_dir-c10e16b8a8727a56.rlib: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/include_dir-c10e16b8a8727a56.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/dir_entry.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/file.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/include_dir-0.7.4/src/../README.md:
