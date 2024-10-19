@@ -1,0 +1,9 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libspl_transfer_hook_interface-22955f3af134774b.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/offchain.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/onchain.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/spl_transfer_hook_interface-22955f3af134774b.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/offchain.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/onchain.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/error.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/instruction.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/offchain.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-transfer-hook-interface-0.4.1/src/onchain.rs:

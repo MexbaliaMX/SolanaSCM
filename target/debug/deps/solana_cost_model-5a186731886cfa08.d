@@ -1,0 +1,9 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libsolana_cost_model-5a186731886cfa08.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/block_cost_limits.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_model.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_tracker.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/transaction_cost.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/solana_cost_model-5a186731886cfa08.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/block_cost_limits.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_model.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_tracker.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/transaction_cost.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/block_cost_limits.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_model.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/cost_tracker.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-cost-model-1.18.26/src/transaction_cost.rs:

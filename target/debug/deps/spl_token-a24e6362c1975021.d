@@ -1,0 +1,11 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libspl_token-a24e6362c1975021.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/native_mint.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/processor.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/state.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/entrypoint.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/spl_token-a24e6362c1975021.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/native_mint.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/processor.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/state.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/entrypoint.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/error.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/instruction.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/native_mint.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/processor.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/state.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/spl-token-6.0.0/src/entrypoint.rs:

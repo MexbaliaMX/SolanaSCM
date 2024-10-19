@@ -1,0 +1,8 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libsolana_config_program-c8a719810a1066ee.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_processor.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/date_instruction.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/solana_config_program-c8a719810a1066ee.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_instruction.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_processor.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/date_instruction.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_instruction.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/config_processor.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-config-program-1.18.26/src/date_instruction.rs:

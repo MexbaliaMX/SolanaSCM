@@ -1,0 +1,12 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libhttparse-db35bd54d77757aa.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/iter.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/swar.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/sse42.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/avx2.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/runtime.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/httparse-db35bd54d77757aa.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/iter.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/swar.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/sse42.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/avx2.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/runtime.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/iter.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/macros.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/mod.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/swar.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/sse42.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/avx2.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/httparse-1.9.5/src/simd/runtime.rs:

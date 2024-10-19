@@ -1,0 +1,8 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libsolana_pubsub_client-e7121bde1d952315.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/pubsub_client.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/pubsub_client.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/solana_pubsub_client-e7121bde1d952315.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/mod.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/pubsub_client.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/pubsub_client.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/mod.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/nonblocking/pubsub_client.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-pubsub-client-1.18.26/src/pubsub_client.rs:

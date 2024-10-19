@@ -1,0 +1,13 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libtoml-d3d3b8ade3d03908.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/map.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/value.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/de.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/ser.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/edit.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/fmt.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/table.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/toml-d3d3b8ade3d03908.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/map.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/value.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/de.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/ser.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/edit.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/fmt.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/table.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/map.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/value.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/de.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/ser.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/macros.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/edit.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/fmt.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/toml-0.7.8/src/table.rs:

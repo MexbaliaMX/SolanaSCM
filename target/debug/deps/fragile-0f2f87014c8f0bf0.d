@@ -1,0 +1,11 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libfragile-0f2f87014c8f0bf0.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/fragile-0f2f87014c8f0bf0.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/errors.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/fragile.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/registry.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/semisticky.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/sticky.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fragile-2.0.0/src/thread_id.rs:

@@ -1,0 +1,11 @@
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/libconst_oid-5bf9ed747f1fab1a.rmeta: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/arcs.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/encoder.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/parser.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/../README.md
+
+/home/eduardo/Desktop/SolanaGitHub/SolanaSCM/target/debug/deps/const_oid-5bf9ed747f1fab1a.d: /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/lib.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/macros.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/arcs.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/encoder.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/error.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/parser.rs /home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/../README.md
+
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/lib.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/macros.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/arcs.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/encoder.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/error.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/parser.rs:
+/home/eduardo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/const-oid-0.7.1/src/../README.md:
